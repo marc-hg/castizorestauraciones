@@ -231,3 +231,10 @@ footer {
 .modal img.transitioning {
     opacity: 0.8;
 }
+
+.gallery-disclaimer {
+    text-align: center;
+    font-style: italic;
+    margin-top: 1rem;
+    color: #666;
+}
