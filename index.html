@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Madrileño - Restauración de Muebles Antiguos y Dorados | Madrid</title>
+    <meta name="description" content="Taller artesanal especializado en restauración de muebles antiguos, dorados con pan de oro, reproducción de muebles y restauración de lámparas antiguas en Madrid.">
+    <meta name="keywords" content="restauración muebles antiguos, dorados pan de oro, reproducción muebles, restauración lámparas antiguas, Madrid, artesano, El Madrileño">
+    
+    <!-- Open Graph tags for social media -->
+    <meta property="og:title" content="El Madrileño - Restauración y Dorados">
+    <meta property="og:description" content="Taller artesanal de restauración de muebles antiguos y dorados con pan de oro en Madrid">
+    <meta property="og:type" content="website">
+    
+    <!-- Structured Data for Google -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Dorados y Restauraciones El Madrileño",
+      "image": "/api/placeholder/800/600",
+      "@id": "",
+      "url": "",
+      "priceRange": "$$",
+      "description": "Taller artesanal especializado en restauración de muebles antiguos, dorados con pan de oro, reproducción de muebles y restauración de lámparas antiguas.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Madrid",
+        "addressCountry": "ES"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "",
+        "longitude": ""
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "09:00",
+        "closes": "18:00"
+      }
+    }
+    </script>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Dorados y Restauraciones El Madrileño</h1>
+        <p>Artesanía y Tradición en Restauración de Muebles</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#galeria">Galería</a></li>
+            <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="servicios">
+            <h2>Servicios</h2>
+            <div class="services">
+                <article class="service-card">
+                    <h3>Restauración de Muebles Antiguos</h3>
+                    <div class="image-container">
+                        <img src="/images/restauracion.jpg" alt="Restauración de muebles antiguos" onclick="openModal(this.src, this.alt)">
+                    </div>
+                    <p>Devolvemos la vida y el esplendor a sus muebles antiguos, conservando su valor histórico y estético.</p>
+                </article>
+
+                <article class="service-card">
+                    <h3>Dorados con Pan de Oro</h3>
+                    <div class="image-container">
+                        <img src="/api/placeholder/400/300" alt="Proceso de dorado con pan de oro" onclick="openModal(this.src, this.alt)">
+                    </div>
+                    <p>Aplicamos técnicas tradicionales de dorado con pan de oro para dar un acabado elegante y duradero.</p>
+                </article>
+
+                <article class="service-card">
+                    <h3>Reproducción de Muebles</h3>
+                    <div class="image-container">
+                        <img src="/images/sillas.jpg" alt="Reproducción de muebles clásicos" onclick="openModal(this.src, this.alt)">
+                    </div>
+                    <p>Creamos reproducciones fieles de muebles históricos, respetando los métodos artesanales originales.</p>
+                </article>
+
+                <article class="service-card">
+                    <h3>Restauración de Lámparas Antiguas</h3>
+                    <div class="image-container">
+                        <img src="/images/lampara.jpg" alt="Restauración de lámparas antiguas" onclick="openModal(this.src, this.alt)">
+                    </div>
+                    <p>Restauramos lámparas antiguas, recuperando su belleza original y adaptándolas a la iluminación moderna.</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="galeria">
+            <h2>Galería de Trabajos</h2>
+            <div class="gallery">
+                <div class="image-container">
+                    <img src="/api/placeholder/400/300" alt="Mueble restaurado 1" onclick="openModal(this.src, this.alt)">
+                </div>
+                <div class="image-container">
+                    <img src="/api/placeholder/400/300" alt="Proceso de dorado" onclick="openModal(this.src, this.alt)">
+                </div>
+                <div class="image-container">
+                    <img src="/api/placeholder/400/300" alt="Lámpara restaurada" onclick="openModal(this.src, this.alt)">
+                </div>
+                <div class="image-container">
+                    <img src="/api/placeholder/400/300" alt="Reproducción de mueble" onclick="openModal(this.src, this.alt)">
+                </div>
+                <div class="image-container">
+                    <img src="/api/placeholder/400/300" alt="Detalle de dorado" onclick="openModal(this.src, this.alt)">
+                </div>
+                <div class="image-container">
+                    <img src="/api/placeholder/400/300" alt="Antes y después" onclick="openModal(this.src, this.alt)">
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre-nosotros">
+            <h2>Sobre Nosotros</h2>
+            <p>Con más de [X] años de experiencia, nuestro taller artesanal se especializa en la restauración y conservación de muebles antiguos, aplicando técnicas tradicionales y materiales de la más alta calidad. Cada pieza recibe atención personalizada y detallada para asegurar resultados excepcionales.</p>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Para consultas y presupuestos:</p>
+            <p>📍<a href="https://maps.app.goo.gl/mpgVqY3ATexDnEkJ6">Rúa José Baldomir, 6, bajo, 15010 A Coruña</a></p>
+            <p style="display: flex; align-items: center; justify-content: start; gap: 8px;">
+                <span>📞</span>
+                <span>/</span>
+                <svg width="24" height="24" style="min-width: 24px; fill: #25D366;">
+                    <use href="icons.svg#icon-whatsapp"/>
+                </svg>
+                <a href="https://wa.me/34698126236">698 12 62 36</a>
+            </p>
+            <p>✉️ <a href="mailto:castizorestauraciones@gmail.com">castizorestauraciones@gmail.com</a></p>
+        </section>
+    </main>
+
+    <!-- Lightbox Modal -->
+    <div class="modal" id="imageModal" onclick="closeModal()">
+        <button class="modal-close" onclick="closeModal()">×</button>
+        <button id="prevButton" class="modal-nav" onclick="navigateImage(-1)">❮</button>
+        <button id="nextButton" class="modal-nav" onclick="navigateImage(1)">❯</button>
+        <img id="modalImage" src="" alt="">
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Dorados y Restauraciones El Madrileño. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
